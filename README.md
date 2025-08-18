@@ -25,7 +25,7 @@ https://www.python.org/downloads/
 Устанавливаем choco
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 Устанавливаем зависимости
-choco install ripgrep luarocks hererocks lazygit fzf unzip wget gzip 7zip tree-sitter zig curl tar -Y
+choco install ripgrep luarocks lazygit fzf unzip wget gzip 7zip tree-sitter zig curl tar -Y
 Устанавливаем neovim
 winget install Neovim.Neovim
 Проверяем установку, запустив nvim
