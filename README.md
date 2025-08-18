@@ -3,8 +3,8 @@
 Используем WindowsTerminal (в Вин11 стоит по стандарту, на Вин10 можно скачать отдельно)
 Обновляем PowerShell
 winget install --id Microsoft.Powershell --source winget
-Устанавливаем Nerd Font
-https://github.com/ryanoasis/nerd-fonts/releases (я использую Meslo)
+Устанавливаем Nerd Font (Для отображения иконок и просто красиво, ставим обязательно все шрифты, скачанные в архиве)
+[NerdFonts](https://www.nerdfonts.com/font-downloads) (я использую Meslo)
 Далее меняем в настройках терминала на установленный шрифт
 Устанавливаем OhMyPosh (опционально)
 winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force
